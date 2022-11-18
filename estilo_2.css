@@ -1,0 +1,22 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+h1{color:green;
+text-align:center;}
+table {border-collapse: collapse;
+width: 50%;
+margin:auto}
+td,th{ 
+    padding: 5px 0;
+border-bottom: 2px solid red;
+text-align: center;}
+td:first-child, th:first-child{
+text-align:left;
+padding-left:5px}
+th{color: blue}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+th{background-color: black;
+color:white}
+td.recuperacao{color:red;
+font-weight: bold;}
+#instrutor {font-style: italic;}
