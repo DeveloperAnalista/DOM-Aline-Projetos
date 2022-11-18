@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <main>
+    <h1>ALLAN KARDEC</h1>
+    <p>
+
+      Na cidade de Lião, na Rua Sala 76, nasceu, no dia 3 de outubro de 1804,
+  aquele que celebrizaria sobre o pseudônimo de Allan Kardec, de tradicional 
+  família francesa de magistrados e professores, filho de Jean Baptiste Antoine
+     Rivail e de Jeanne Louise Duhamel. Batizado pelo padre Barthe, a 15 de junho 
+  de 1805,na igreja Saint Denis de la Croix-Rousse, recebeu o nome de Hippolyte
+  Leon Denizard Rivail.
+      Em Lião, fez os seus primeiros estudos, seguindo depois para Yverdon na Suíça,
+  a fim de estudar no Instituto do célebre professor Pestalozzi. Escola modelo da Europa.
+       Declara a Revista Espírita, maio de 1869, que Allan Kardec dotado de notável
+  inteligência
+  e atraído por sua vocação, desde os 14 anos ele ensinava, aos condiscípulos menos adiantados,
+  tudo o que aprendia.
+       Concluído os seus estudos em Yverdon, regressou a Paris, onde se tornou conceituado
+  Mestre não só em letras como em ciências, distinguindo-se como notável pedagogo e 
+  divulgador do Método Pestalozziano.
+      Conhecia algumas línguas como, o italiano, alemão etc. 
+      Tornou-se membro de várias sociedades científicas.
+      
+    </p>
+
+    <class="destaque"><img src="ALLAN KARDEC.jpg" alt="">
+
+     <p> As primeiras investigações de Kardec tinham por foco um fenômeno bastante comum em meados do século XIX,
+       na Europa e nos Estados Unidos: o das chamadas mesas girantes ou dança das mesas, em que certa
+        quantidade de pessoas se reuniam em torno de mesas para se entreter com deslocamentos insólitos 
+        e aparentemente involuntários realizados por esses móveis. Apesar do nome, era comum, 
+        segundo diversos relatos da época, a ocorrência de fenômenos semelhantes com objetos variados..</p>
+
+    <p> Kardec catalogou o que denominava manifestações inteligentes, ou seja, movimentos que recorriam a
+       sistemas simbólicos para estabelecer um canal de comunicação com um entrevistador. Alguém fazia 
+       uma pergunta e estabelecia critérios como "uma batida para sim, duas para não", e, em certos casos,
+        um interrogatório feito à exaustão obtinha sucessivas respostas corretas. Com o tempo esse método
+         de comunicação foi sendo depurado, passando pelo uso de um lápis amarrado a um cesto em cuja
+          borda um ou mais médiuns colocavam seus dedos, até chegar à moderna técnica da psicografia.
+
+      Assim, Kardec se empenhou em fazer um estudo analítico das diversas modalidades de comunicação
+       estabelecidas entre homens e espíritos, que resultou em O Livro dos Médiuns..</p>
+
+    <p>
+      Versa sobre o caráter experimental e investigativo da doutrina espírita, visto como ferramenta
+       teórico-metodológica para se compreender uma "nova ordem de fenômenos", até então jamais
+        considerada pelo conhecimento científico: os fenômenos ditos espíritas ou mediúnicos, 
+        que teriam como causa a intervenção de espíritos na realidade física..
+    <class="destaque"> Todo aquele que sente, num grau qualquer, a influência dos Espíritos é,
+       por esse fato, médium. Essa faculdade é inerente ao homem; não constitui, portanto, um
+        privilégio exclusivo. Por isso mesmo, raras são as pessoas que dela não possuam alguns rudimentos.
+         Pode, pois, dizer-se que todos são, mais ou menos, médiuns. Todavia, usualmente,
+          assim só se qualificam aqueles em quem a faculdade mediúnica se mostra bem caracterizada 
+          e se traduz por efeitos patentes, de certa intensidade, o que então depende de uma organização 
+          mais ou menos sensitiva.
+    </p>
+
+    <div>
+      <img src="KARDEC MEDIUNS.jpg" alt="">
+      <strong> Livro dos Médiuns</strong>. Todo aquele que sente, num grau qualquer,
+       a influência dos Espíritos é, por esse fato, médium. Essa faculdade é inerente ao homem;
+       não constitui, portanto, um privilégio exclusivo. Por isso mesmo, raras são as pessoas que
+       dela não possuam alguns rudimentos. Pode, pois, dizer-se que todos são, mais ou menos, médiuns.
+          Todavia, usualmente, assim só se qualificam aqueles em quem a faculdade mediúnica se mostra bem 
+      caracterizada e se traduz por efeitos patentes, de certa intensidade, o que então depende
+       de uma organização mais ou menos sensitiva.
+    </div>
+
+  </main>
+
+ 
+
+</body>
+
+
+
+    
+var título = document.getElementsByTagName('h1');
+
+título.innerHTML = "Livro dos Médius";
+var primeiroParagrafo = document.getElementById("primeiro");
+var destaques = document.getElementsByClassName("destaque");
+var span = destaques[1];
+
+
+var destaque = document.querySelector("Livro dos Médius");
+
+
+var Livro = document.querySelectorAll("Livro");
+título.addEventListener('mouseover', function(event){
+    trocarImagem()
+})
+
+function trocarImagem(){
+    var imagem = document.querySelector("img");{
+    if(imagem.src.indexOf("KARDEC MEDIUNS.jpg") != -1)
+    if(imagem.src == "KARDEC MEDIUNS.jpg");}
+}
+
+
+<script type = "text/javascript" src = "codigo.js"></script>
+
+
+   
+body {
+    margin: 10%;
+    font-family:  Arial, Helvetica, Sans-serif;
+    font-family:"courier" ;
+    font-style: normal;
+    font-size: 120%;
+    color: #fff;
+
+}
+td, th {
+    border: 1px solid rgb(78, 217, 8);
+    text-align: center;
+    padding: 3px;
+}html,
+    main{
+        margin-top: 50px;
+        display:flex
+    }
+    nav{ 
+        background-color:rgb(207, 156, 156);
+        flex: 1;
+        background-position: 0ch;
+    }
+    
+    
+    nav ul li {
+        margin: 0%;
+        padding:0;
+    background-color: #333;
+    border-top: 2px solid rgb(210,210,210);
+    border-bottom: none;
+    }
+   
+    nav a:hover{
+          text-align: justify;
+    }
+    img {width: 100;}
+
+
+</html>
